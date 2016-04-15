@@ -1,0 +1,7 @@
+com\jlfex\hutu\WebRun.class
+com\jlfex\hutu\entity\IdEntity.class
+com\jlfex\hutu\controller\TuserController.class
+com\jlfex\hutu\vo\TuserForm.class
+com\jlfex\hutu\dao\jpa\TuserDao.class
+com\jlfex\hutu\entity\Tuser.class
+com\jlfex\hutu\service\TuserService.class

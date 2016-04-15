@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	    <title>易联天下-易票-登录</title>
+	    <meta name="keywords" content="网络搜索关键字"/>
+	    <meta name="description" content="这个是一个测试框架系统！就这些描述。。。"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/><!--缩放页面，比较使用移动设备-->
+	    <link rel="shortcut icon" type="image/x-icon" href="/img/icon/favicon.ico" media="screen" />
+	    <link type="text/css" rel="stylesheet" href="/charts/bootstrap/bootstrap-3.3.5/css/bootstrap.min.css" />
+	    <script type="text/javascript" src="/charts/jquery-easyui-1.4/jquery-1.12.0.js"></script>
+	    
+	</head>
+	<body>
+		<div class="container-fluid">
+			<form action="/user/userSave" method="post">
+				<div class="row">
+					<div class="col-md-3">用户编号：</div>
+					<div class="col-md-3">
+						<input name="userCode" type="text" value="$!data.userCode" >
+					</div>
+					<div class="col-md-3">用户姓名：</div>
+					<div class="col-md-3">
+						<input name="userName" type="text" value="$!data.userName" >
+					</div>
+				</div>
+				</br>
+				<div class="row">
+					<div class="col-md-3">用户性别：</div>
+					<div class="col-md-3">
+						<input name="userSex" type="text" value="$!data.userSex" >
+					</div>
+					<div class="col-md-3">用户年龄：</div>
+					<div class="col-md-3">
+						<input name="userAge" type="text" value="$!data.userAge" >
+					</div>
+				</div>
+				</br>
+				<div class="row">
+					<div class="col-md-3">用户地址：</div>
+					<div class="col-md-3">
+						<input name="userAddress" type="text" value="$!data.userAddress" >
+					</div>
+					<div class="col-md-3">用户图像：</div>
+					<div class="col-md-3">
+						<input name="userIconPath" type="text" value="$!data.userIconPath" >
+					</div>
+				</div>
+				</br>
+				<div class="row">
+					<center>
+						<input name="submit_1" value="表单提交测试" type="submit" class="btn btn-default">
+					</center>
+				</div>
+			</form>
+		
+		</div>
+	</body>
+</html>
+
+		  

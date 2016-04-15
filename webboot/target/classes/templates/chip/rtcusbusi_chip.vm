@@ -1,0 +1,35 @@
+<!--异步数据加载测试-->
+<div class="table-responsive">
+  <table class="table">
+  	  <th>
+  	  	  <td>客户编号1</td>
+  	  	  <td>客户姓名1</td>
+  	  	  <td>出借编号1</td>
+  	  	  <td>投资金额1</td>
+  	  	  <td>投资状态1</td>
+  	  	  <td>客户经理姓名1</td>
+  	  	  <td>客户经理部门1</td>
+  	  </th>
+  	  #foreach($o in $data)  
+  	  	  <tr>
+  	  	  	  <td>$!{velocityCount}</td>
+  	  	  	  <td>$o.custId</td>
+  	  	  	  <td>$o.custName</td>
+  	  	  	  <td>$o.lendNo</td>
+  	  	  	  <td>$o.amount</td>
+  	  	  	  <td>$o.busDesc</td>
+  	  	  	  <td>$o.staffName</td>
+  	  	  	  <td>
+  	  	  	  		#if (!$o.groupName)
+					    $o.groupName
+					#elseif (!$o.subBranchName)
+					    $o.subBranchName
+					#else
+					    $o.subBankName
+					#end 
+  	  	  	  </td>
+  	  	  </tr>
+	  #end
+  </table>
+</div>
+		  
